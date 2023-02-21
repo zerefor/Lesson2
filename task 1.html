@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="CSS.css"/>
+    <meta charset="utf-8"/>
+    <title>Задание</title>
+</head>
+<body>
+<div><p>Задание 1</p>
+    <hr/>
+    <div>
+        <p>Ссылка ко второму заданию</p>
+        <a href="task 2.html" class="link">Переход к заданию 2.</a>
+    </div>
+
+    <hr/>
+
+    <form action="/fake.php" method="post">
+        <div>
+            <p><label for="name">Заполните (от 8 до 16 символов):</label></p>
+            <input type="text" id="name" name="name" required minlength="8" maxlength="16" size="18"/>
+        </div>
+        <hr/>
+        <div>
+            <p><b>Введите текст</b></p>
+            <p><textarea name="text" cols="40" rows="5"></textarea></p>
+        </div>
+        <hr/>
+        <div>
+            <p>Выберите лучший вариант</p>
+            <input type="checkbox" id="best" name="name" value="best"/>
+            <label for="best">Лучший</label>
+            <input type="checkbox" id="worst" name="name" value="worst"/>
+            <label for="worst">Худший</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="choice" name="name" value="choice"/>
+            <label for="choice">Ещё вариант</label>
+            <input type="checkbox" id="dangerous" name="name" value="dangerous"/>
+            <label for="dangerous">Не жать</label>
+        </div>
+        <hr/>
+        <div>
+            <p>Радио-Баттон</p>
+            <input type="radio" id="radioChoice1" name="check" value="choice 1"/>
+            <label for="radioChoice1">Choice 1</label>
+
+            <input type="radio" id="radioChoice2" name="check" value="choice 2"/>
+            <label for="radioChoice2">Choice 2</label>
+
+            <input type="radio" id="radioChoice3" name="check" value="choice 3"/>
+            <label for="radioChoice3">Choice 3</label>
+
+            <input type="radio" id="radioChoice4" name="check" value="choice 4"/>
+            <label for="radioChoice4">Choice 4</label>
+        </div>
+
+        <p>
+            <button type="submit">Отправить форму</button>
+        </p>
+    </form>
+</div>
+
+</body>
+</html>
